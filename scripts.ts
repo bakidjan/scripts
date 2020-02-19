@@ -27,3 +27,13 @@ modifier le :
   donner le package
   select with proposed number for mvn archetype : 7 for exemple to mwv-archetype-webapp
   supprimer le default "/.m2/repository" et hope
+si apres mise à jour, le package "org.springframework.data.rest.core.annotation.RepositoryRestResource;" signale tjrs l'erreur,
+alors ajouter la derniere version de spring-data-rest-core
+<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-rest-core -->
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-rest-core</artifactId>
+    <version>3.2.4.RELEASE</version>
+</dependency> 
+
+link : https://www.youtube.com/watch?v=-vWnvhof5sk
